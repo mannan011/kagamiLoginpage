@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="logCustom.css">
+    <script src="./custom.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Kagami Login</title>
+</head>
+<body class="main">
+	<div class="container" >
+		<div class="form-container log-in-container">
+			<form class="elemts" action="./webd.html">
+				<h1 class="head1">Login</h1>
+				<div class="social-container">
+					<a href="#" class="social"><i class="fa fa-facebook fa-2x"></i></a>
+					<a href="#" class="social"><i class="fa fa-envelope fa-2x"></i></a>
+				</div>
+				<span class="t1">Or use your account!</span><br>
+                
+				<input class="input1" name="username" type="text" id="username" placeholder="Username" required />
+                
+                <input type="password" id="psw" name="psw" class="input2" placeholder="Password" pattern="(?=.*\d).{8,}" title="Must contain at least one number. " required>
+				<!-- <input id="input2" type="password" placeholder="Password" pattern="(?=.*\d)"/> -->
+				<a href="#" class="btn1">Forgot your password?</a>
+				<!-- <button class="btn"><a href="webd.html" class="btn2">Log in</a></button> -->
+
+                <input type="submit" class="btn" value="Login" onclick="uname()" >
+                
+
+
+
+			</form>
+		</div>
+		<div class="content-container">
+			<div class="content">
+				<div class="content-panel ">
+					<h1 class="head2">KAGAMI <br> LOGIN</h1>
+					<p class="t2">Login to explore the world of kagami &  to know our services and how we grew as the organisation. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
